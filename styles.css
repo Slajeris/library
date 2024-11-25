@@ -10,11 +10,11 @@ h1 {
   text-align: center;
 }
 
-/* Center the button under "My Library" and make it blue */
+
 button {
   display: block;
-  margin: 20px auto; /* Center horizontally and add space */
-  background-color: #007BFF; /* Blue color */
+  margin: 20px auto; 
+  background-color: #007BFF;
   color: white;
   padding: 10px 20px;
   font-size: 16px;
@@ -25,7 +25,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #0056b3; 
 }
 
 
@@ -45,7 +45,7 @@ button.remove {
   margin-top: 10px;
 }
 
-/* Library Grid */
+
 #library {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -64,7 +64,6 @@ button.remove {
   margin-top: 0;
 }
 
-/* Modal */
 .modal {
   display: none;
   position: fixed;
